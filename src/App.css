@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,7 +9,6 @@ body {
   background-color: #2d2a2a;
 }
 
-/* Header Styles */
 h1 {
   color: #4CAF50;
   margin: 20px 0;
@@ -17,7 +16,6 @@ h1 {
   font-weight: bold;
 }
 
-/* Container for the App */
 .container {
   background: white;
   border-radius: 8px;
@@ -27,8 +25,6 @@ h1 {
   max-width: 400px;
   text-align: center;
 }
-
-/* List Styles */
 ul {
   list-style-type: none;
   padding: 0;
@@ -46,7 +42,6 @@ li {
   box-shadow: #d7d0d0; 
 }
 
-/* Input Field Styles */
 input[type="text"] {
   width: 100%;
   padding: 10px;
@@ -57,7 +52,6 @@ input[type="text"] {
   font-size: 24px;
 }
 
-/* Button Styles */
 button {
   background-color: #4CAF50;
   color: white;
