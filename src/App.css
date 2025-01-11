@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2d2a2a;
+}
+
+/* Header Styles */
+h1 {
+  color: #4CAF50;
+  margin: 20px 0;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+/* Container for the App */
+.container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  background-color: #ffffff;
+  color:black;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: #d7d0d0; 
+}
+
+/* Input Field Styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+/* Button Styles */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
